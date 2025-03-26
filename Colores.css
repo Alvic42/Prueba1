@@ -1,0 +1,39 @@
+h1, h2 {
+    font-family: comic sans-serif;
+    color: blue;
+}
+body {
+    background-color: pink;
+    color:black;
+}
+h1 {
+    text-align: center;
+    color: crimson;
+}
+.text {
+    color: blueviolet;
+    text-align: right;
+}
+.different {
+    color: chocolate;
+    text-align: justify;
+}
+#list-title {
+    color: blue;
+}
+#list-section {
+    list-style-type: lower-roman;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: aquamarine;
+    text-align: center;
+}
+#advantatges-list {
+    list-style-type: lower-roman;
+    list-style-position:inside;
+    text-align: center;
+}
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}

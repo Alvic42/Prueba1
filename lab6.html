@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lab 6: CSS</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="./Colores.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 id=title class="headers"> Lab 6: Cascading Style Sheets (CSS) </h1>
+  </header>
+  <section id="introduction">
+    <p class="text">
+      Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a 
+      document written in a markup language such as HTML. CSS enhances the visual appeal and layout of 
+      web pages by defining how elements should be displayed on screen, in print, or other media types. 
+      It facilitates the separation of content from presentation, allowing developers to maintain 
+      consistency and easily update the design across multiple pages.
+    </p>
+    <p class="text different">
+      CSS operates on a cascade principle, meaning that multiple style sheets can influence the 
+      presentation of a document. Styles can be applied directly to HTML elements or grouped into classes 
+      and IDs for more targeted styling. This modularity and cascading nature enable developers to 
+      efficiently manage the appearance of complex websites while promoting reusability and 
+      maintainability of code.
+    </p>  
+    <p class="different">
+      Key features of CSS include its extensive set of properties and values, which control aspects such 
+      as colors, fonts, spacing, and layout. Selectors determine which elements the styles apply to, 
+      offering flexibility and precision in styling.
+      CSS is a rule-based language — you define the rules by specifying groups of styles that should be 
+      applied to particular elements or groups of elements on your web page.
+      CSS properties have different allowable values, depending on which property is being specified. 
+      In our example, we have the color property, which can take various color values. We also have the 
+      font-size property. This property can take various size units as a value.
+    </p>
+  </section>
+  <hr />
+
+  <section id="list-section">
+    <h2 class="headers" id="list-title"> Advantatges of CSS</h2>
+    <ul id="advantatges-list">
+      <li>Separation of Content and Style</li>
+      <li>Accessibility</li>
+      <li>Ease of Maintenance</li>
+      <li>Platform Independence and Device Compatibility</li>
+      <li>Faster Loading Times</li>
+    </ul>
+  </section>
+  <hr />
+
+  <div>
+    <h2 id="table" class="headers">CSS units</h2>
+    <table>
+      <caption id="table-caption">Absolute length units</caption>
+      <tr>
+        <th>Unit</th>
+        <th>Name</th>
+        <th>Equivalent to</th>
+      </tr>
+      <tr>
+        <td>cm</td>
+        <td>Centimeters</td>
+        <td>1cm = 37.8px</td>
+      </tr>
+      <tr>
+        <td>mm</td>
+        <td>Millimeters</td>
+        <td>1mm = 1/10th of 1 cm</td>
+      </tr>
+      <tr>
+        <td>in</td>
+        <td>Inches</td>
+        <td>1in = 2.54cm = 96px</td>
+      </tr>
+      <tr>
+        <td>px</td>
+        <td>Pixels</td>
+        <td>1px = 1/96th of 1in</td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
